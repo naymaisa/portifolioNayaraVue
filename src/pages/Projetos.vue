@@ -279,5 +279,51 @@ p {
   color: white;
   text-decoration: none;
 }
+@media (max-width: 1024px) {
+  .projetos-container {
+    margin-left: 120px;
+  }
+
+  .projetos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .projetos-container {
+    margin-left: 0;
+    padding: 1rem;
+  }
+
+  .filtro-container {
+    justify-content: center;
+  }
+
+  .filtro-dropdown {
+    width: 100%;
+  }
+
+  .projetos-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .modal-content {
+    padding: 1rem;
+  }
+
+  .carousel img {
+    max-width: 100%;
+  }
+
+  .modal-buttons {
+    flex-direction: column;
+  }
+
+  .modal-buttons .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
 
 </style>

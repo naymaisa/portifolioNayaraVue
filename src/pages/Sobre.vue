@@ -51,20 +51,22 @@
 .about-container {
   display: flex;
   align-items: center;
-  margin: 8rem;
+  justify-content: center;
+  gap: 2rem;
+  margin: 8rem 2rem 2rem 2rem;
   margin-left: 200px;
 }
 
 .about-text {
   flex: 1;
-  padding-right: 2rem;
   padding: 2rem;
 }
 
 .about-photo img {
-  margin-right: 100px;
+  width: 300px;
+  max-width: 90vw;
+  border-radius: 20px;
   object-fit: cover;
-  margin-left: 100px;
 }
 
 .icons-grid {
@@ -77,12 +79,6 @@
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
-}
-
-.icons-grid br {
-  flex-basis: 100%;
-  height: 0;
-  content: "";
 }
 
 .break-line {
@@ -98,4 +94,32 @@
 .icons-grid i:hover {
   transform: scale(1.2);
 }
+
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .about-photo img {
+    margin: 0 auto;
+    width: 250px;
+  }
+
+  .about-text {
+    padding: 1rem;
+  }
+
+  .icons-grid {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .icons-grid i {
+    font-size: 36px;
+  }
+}
+
 </style>
