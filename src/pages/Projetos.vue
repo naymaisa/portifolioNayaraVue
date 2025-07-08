@@ -169,6 +169,7 @@ onMounted(() => {
 .projetos-container {
   padding: 2rem;
   color: white;
+  margin-left: 200px;
 }
 
 .projetos-grid {

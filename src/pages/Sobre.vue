@@ -44,7 +44,7 @@
 </template>
 
 <script setup lang="ts">
-// nada necessário aqui por enquanto
+
 </script>
 
 <style scoped>
@@ -52,6 +52,7 @@
   display: flex;
   align-items: center;
   margin: 8rem;
+  margin-left: 200px;
 }
 
 .about-text {

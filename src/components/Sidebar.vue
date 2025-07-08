@@ -6,12 +6,12 @@
         <li><router-link to="/projetos">Projetos</router-link></li>
       </ul>
       <ul class="social">
-        <li><a href="https://github.com/naymaisa"><i class="bi bi-github"></i></a></li>
-        <li><a href="https://linkedin.com/in/nayaramaisa"><i class="bi bi-linkedin"></i></a></li>
-        <li><a href="https://www.youtube.com/@CodandocomNay"><i class="bi bi-youtube"></i></a></li>
-        <li><a href="https://www.tiktok.com/@codandocomnay"><i class="bi bi-tiktok"></i></a></li>
-        <li><a href="https://www.instagram.com/codandocomnay/"><i class="bi bi-instagram"></i></a></li>
-        <li><a href="mailto:nayaramaisa.stn@gmail.com"><i class="bi bi-envelope-at-fill"></i></a></li>
+        <li><a href="https://github.com/naymaisa" target="_blank"><i class="bi bi-github"></i></a></li>
+        <li><a href="https://linkedin.com/in/nayaramaisa" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+        <li><a href="https://www.youtube.com/@CodandocomNay" target="_blank"><i class="bi bi-youtube"></i></a></li>
+        <li><a href="https://www.tiktok.com/@codandocomnay" target="_blank"><i class="bi bi-tiktok"></i></a></li>
+        <li><a href="https://www.instagram.com/codandocomnay/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+        <li><a href="mailto:nayaramaisa.stn@gmail.com" target="_blank"><i class="bi bi-envelope-at-fill"></i></a></li>
       </ul>
     </nav>
   </aside>
