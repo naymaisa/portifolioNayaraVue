@@ -16,7 +16,11 @@
           <li><a href="https://www.youtube.com/@CodandocomNay" target="_blank"><i class="bi bi-youtube"></i></a></li>
           <li><a href="https://www.tiktok.com/@codandocomnay" target="_blank"><i class="bi bi-tiktok"></i></a></li>
           <li><a href="https://www.instagram.com/codandocomnay/" target="_blank"><i class="bi bi-instagram"></i></a></li>
-          <li><a href="mailto:nayaramaisa.stn@gmail.com" target="_blank"><i class="bi bi-envelope-at-fill"></i></a></li>
+          <a
+  href="mailto:nayaramaisa.stn@gmail.com?subject=Contato%20pelo%20portfólio&body=Olá%2C%20Nayara!%20Vi%20seu%20portfólio%20e...">
+  <i class="bi bi-envelope-at-fill"></i>
+</a>
+
         </ul>
       </nav>
     </aside>
