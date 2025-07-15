@@ -12,29 +12,54 @@
         trabalho como freelancer no desenvolvimento de aplicações web completas, incluindo jogos educativos, e-commerces e
         sistemas integrados.
         <br />
-        Utilizo no dia a dia Java, JavaScript, TypeScript, Node.js, React, Vue.js, HTML/CSS e
-        MongoDB.
+        Utilizo no dia a dia Java, JavaScript, TypeScript, Node.js, React, Vue.js, HTML/CSS,
+        MongoDB e Postman.
         <br />
         Tenho vivência internacional em Portugal e compartilho conteúdos sobre programação no meu canal no
         YouTube
       </p>
 
       <div class="icons-grid">
-        <i class="devicon-java-plain colored" title="Java"></i>
-        <i class="devicon-angularjs-plain colored" title="Angular"></i>
-        <i class="devicon-typescript-plain colored" title="TypeScript"></i>
-        <i class="devicon-javascript-plain colored" title="JavaScript"></i>
-        <i class="devicon-react-original colored" title="React"></i>
-        <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+  <i class="devicon-java-plain colored" title="Java"></i>
+  <i class="devicon-angularjs-plain colored" title="Angular"></i>
+  <i class="devicon-typescript-plain colored" title="TypeScript"></i>
+  <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+  <i class="devicon-react-original colored" title="React"></i>
+  <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+<i class="devicon-vuejs-plain colored" title="Vue.js"></i>
 
-        <div class="break-line"></div>
+  <div class="break-line"></div>
 
-        <i class="devicon-vuejs-plain colored" title="Vue.js"></i>
-        <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
-        <i class="devicon-postgresql-plain colored" title="PostgreSQL"></i>
-        <i class="devicon-html5-plain colored" title="HTML5"></i>
-        <i class="devicon-css3-plain colored" title="CSS3"></i>
-      </div>
+  
+  <i class="devicon-mongodb-plain colored" title="MongoDB"></i>
+  <i class="devicon-postgresql-plain colored" title="PostgreSQL"></i>
+  <i class="devicon-html5-plain colored" title="HTML5"></i>
+  <i class="devicon-css3-plain colored" title="CSS3"></i>
+  <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cypressio/cypressio-original.svg"
+    alt="Cypress"
+    title="Cypress"
+    class="custom-icon"
+  />
+    <img
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+    alt="Postman"
+    title="Postman"
+    class="custom-icon"
+  />
+<img
+  src="https://junit.org/junit5/assets/img/junit5-logo.png"
+  alt="JUnit"
+  title="JUnit"
+  class="custom-icon"
+/>
+
+
+
+
+<i class="devicon-jest-plain colored" title="Jest"></i>
+</div>
+
     </div>
 
     <div class="about-photo">
@@ -119,6 +144,23 @@
 
   .icons-grid i {
     font-size: 36px;
+  }
+}
+.icons-grid img.custom-icon {
+  height: 48px;
+  width: 48px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.icons-grid img.custom-icon:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .icons-grid img.custom-icon {
+    height: 36px;
+    width: 36px;
   }
 }
 

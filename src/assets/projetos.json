@@ -321,5 +321,58 @@
     ],
     "codigoUrl": "https://github.com/naymaisa/TelaLoginCadastro",
     "siteUrl": "https://www.youtube.com/watch?v=JoxuR6crOhM&t=2s"
+  },
+  {
+    "id": 25,
+    "titulo": "Testes com React Testing Library - Inserção de Comentários",
+    "categoria": "Testes de Software",
+    "descricaoCurta": "Implementação de testes automatizados utilizando React Testing Library para validar a inserção de múltiplos comentários em uma aplicação React.",
+    "descricaoDetalhada": "Neste projeto, foi criado um conjunto de testes para validar a funcionalidade de inserção de comentários em uma aplicação React, utilizando a React Testing Library. Os testes focam na inserção de dois comentários distintos, garantindo que o componente atualize corretamente a interface do usuário. Foi utilizado o atributo data-testid para facilitar a localização dos elementos durante os testes.",
+    "imagens": [
+      "/assets/ReactTest.PNG",
+      "/assets/ReactTest3.PNG",
+      "/assets/ReactTest4.PNG",
+      "/assets/ReactTest2.PNG"
+    ],
+    "codigoUrl": "https://github.com/naymaisa/ebac_exercicio_rtl"
+  },
+  {
+    "id": 26,
+    "titulo": "Testes End-to-End com Cypress – Agenda de Contatos React",
+    "categoria": "Testes de Software",
+    "descricaoCurta": "Projeto de testes automatizados com Cypress para validar as funcionalidades principais de uma aplicação React de agenda de contatos.",
+    "descricaoDetalhada": "Este projeto consiste na criação de um conjunto de testes end-to-end utilizando Cypress, focado na aplicação disponível em https://agenda-contatos-react.vercel.app/. Os testes cobrem as funcionalidades de inclusão, alteração e remoção de contatos, garantindo que as operações básicas da agenda estejam funcionando conforme esperado.",
+    "imagens": [
+      "/assets/Cy.PNG",
+      "/assets/cy5.PNG",
+      "/assets/cy3.PNG",
+      "/assets/cy4.PNG",
+      "/assets/cy2.PNG"
+    ],
+    "codigoUrl": "https://github.com/naymaisa/CursoEbac/tree/exercicio_cypress"
+  },
+  {
+    "id": 27,
+    "titulo": "Testes Unitários com JUnit e Mockito – Contrato ",
+    "categoria": "Testes de Software",
+    "descricaoCurta": "Implementação de testes unitários para classe de Contrato , utilizando JUnit e mocks com Mockito para garantir a correta funcionalidade.",
+    "descricaoDetalhada": "Neste projeto, foram desenvolvidos testes unitários para a classe Contrato , aplicando as boas práticas de Test-Driven Development (TDD). Utilizamos JUnit como framework principal para execução dos testes e Mockito para criação de objetos mock, que permitiram simular comportamentos e dependências das classes testadas, isolando o código e melhorando a qualidade e cobertura dos testes.",
+    "imagens": [
+      "/assets/cliente.PNG",
+      "/assets/cliente2.PNG"
+    ],
+    "codigoUrl": "https://github.com/naymaisa/teste2mod24"
+  },
+  {
+    "id": 28,
+    "titulo": "Testes de Integração com PostgreSQL – Validação das Entidades Produto e Cliente",
+    "categoria": "Testes de Software",
+    "descricaoCurta": "Testes automatizados para validar a integração entre uma aplicação Java e o banco de dados PostgreSQL, incluindo alterações nas entidades Produto e Cliente.",
+    "descricaoDetalhada": "Este projeto teve como foco a implementação de testes para validar a integração entre a aplicação Java e o banco de dados PostgreSQL. As classes Produto e Cliente foram modificadas com novos campos, e os testes garantiram que as queries personalizadas executadas refletissem corretamente essas alterações. Foram testadas funcionalidades como inserção, atualização e consulta de dados, assegurando que a comunicação entre a aplicação e o banco estivesse correta e confiável. A tarefa teve como objetivo verificar a consistência da integração e o correto funcionamento das funcionalidades após as mudanças estruturais nas entidades.",
+    "imagens": [
+      "/assets/teste.PNG",
+      "/assets/teste2.PNG"
+    ],
+    "codigoUrl": "https://github.com/naymaisa/TesteProjetoJava3"
   }
 ]
