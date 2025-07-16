@@ -270,7 +270,8 @@
     "descricaoCurta": "To-Do list desenvolvida em VueJs e NodeJs, integrada ao MongoDB",
     "descricaoDetalhada": "Lista de tarefas construida para realização de teste técnico. FrontEnd desenvolvido em VueJs e BackEnd em NodeJs, integrado ao banco de dados não relacional MongoDB",
     "imagens": [
-      "/assets/todo1.1.png"
+      "/assets/todo1.1.png",
+      "/assets/todo2.PNG"
     ],
     "codigoUrl": "https://github.com/naymaisa/ToDoList"
   },
@@ -282,10 +283,10 @@
     "descricaoDetalhada": "Lista de tarefas construida documentação no Youtube. FrontEnd desenvolvido em Angular e BackEnd em Java, integrado ao banco de dados não relacional MongoDB",
     "imagens": [
       "/assets/todo.png",
-      "/assets/todo2.png",
-      "/assets/todo3.png",
-      "/assets/todo4.png",
-      "/assets/todo5.png"
+      "/assets/todo2.PNG",
+      "/assets/todo3.PNG",
+      "/assets/todo4.PNG",
+      "/assets/todo5.PNG"
     ],
     "codigoUrl": "https://github.com/naymaisa/ApiToDoBancoJava",
     "siteUrl": "https://www.youtube.com/watch?v=bEVJWhD9cuU&t=1166s"
